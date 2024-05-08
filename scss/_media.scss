@@ -1,0 +1,715 @@
+@media (max-width: 1441px) {
+  @mixin input-style-for-1441 {
+    width: 575px;
+  }
+
+  .container {
+    width: 1200px;
+  }
+  form {
+    justify-content: center;
+    .user-first-name {
+      input {
+        @include input-style-for-1441;
+      }
+    }
+
+    .user-last-name {
+      input {
+        @include input-style-for-1441;
+      }
+    }
+
+    .user-email {
+      input {
+        width: 1190px;
+      }
+    }
+    .user-password {
+      input {
+        @include input-style-for-1441;
+      }
+    }
+
+    .user-password-confirm {
+      input {
+        @include input-style-for-1441;
+      }
+    }
+
+    .user-gender {
+      @include input-style-for-1441;
+    }
+
+    .user-hobbies {
+      @include input-style-for-1441;
+    }
+
+    .user-source-of-income {
+      .source-of-income-select {
+        @include input-style-for-1441;
+      }
+    }
+
+    .user-income-range {
+      @include input-style-for-1441;
+
+      .input-range-slider-wrap {
+        width: 430px;
+      }
+
+      .income-range-value {
+        width: 75px;
+        font-size: 16px;
+      }
+    }
+
+    .user-profile-picture {
+      @include input-style-for-1441;
+    }
+
+    .user-age {
+      input {
+        @include input-style-for-1441;
+      }
+    }
+
+    .user-bio {
+      width: 1190px;
+    }
+
+    .submit-btn-wrap {
+      width: 1190px;
+    }
+  }
+}
+
+@media (max-width: 1231px) {
+  @mixin input-style-for-1231 {
+    width: 470px;
+    padding: 0 25px;
+  }
+
+  @mixin header-of-input-style-for-1231 {
+    margin: 0 0 15px 25px;
+  }
+
+  .container {
+    width: 986px;
+  }
+  form {
+    justify-content: center;
+    .user-first-name {
+      p {
+        @include header-of-input-style-for-1231;
+      }
+
+      input {
+        @include input-style-for-1231;
+      }
+    }
+
+    .user-last-name {
+      p {
+        @include header-of-input-style-for-1231;
+      }
+      
+      input {
+        @include input-style-for-1231;
+      }
+    }
+
+    .user-email {
+      p {
+        @include header-of-input-style-for-1231;
+      }
+      
+      input {
+        width: 980px;
+      }
+    }
+    .user-password {
+      p {
+        @include header-of-input-style-for-1231;
+      }
+      
+      input {
+        @include input-style-for-1231;
+      }
+    }
+
+    .user-password-confirm {
+      p {
+        @include header-of-input-style-for-1231;
+      }
+      
+      input {
+        @include input-style-for-1231;
+      }
+    }
+
+    .user-gender {
+      p {
+        @include header-of-input-style-for-1231;
+        margin: 0 0 15px 0;
+      }
+      
+      @include input-style-for-1231;
+    }
+
+    .user-hobbies {
+      margin: 46px 0 0 20px;
+      p {
+        @include header-of-input-style-for-1231;
+        margin: 0 0 15px 0;
+      }
+      
+      @include input-style-for-1231;
+    }
+
+    .user-source-of-income {
+      p {
+        @include header-of-input-style-for-1231;
+      }
+      
+      .source-of-income-select {
+        @include input-style-for-1231;
+      }
+    }
+
+    .user-income-range {
+      p {
+        @include header-of-input-style-for-1231;
+        margin: 0 0 15px 0;
+      }
+      
+      @include input-style-for-1231;
+
+      .input-range-slider-wrap {
+        width: 320px;
+      }
+
+      .income-range-value {
+        width: 65px;
+        height: 38px;
+        line-height: 38px;
+        font-size: 15px;
+      }
+    }
+
+    .user-profile-picture {
+      p {
+        @include header-of-input-style-for-1231;
+      }
+      
+      @include input-style-for-1231;
+      padding: 0;
+    }
+
+    .user-age {
+      p {
+        @include header-of-input-style-for-1231;
+      }
+      
+      input {
+        @include input-style-for-1231;
+      }
+    }
+
+    .user-bio {
+      p {
+        @include header-of-input-style-for-1231;
+      }
+      
+      width: 980px;
+    }
+
+    .submit-btn-wrap {
+      width: 980px;
+      
+      .submit-btn {
+        width: 300px;
+      }
+    }
+  }
+}
+
+@media (max-width: 1025px) {
+  @mixin input-style-for-1025 {
+    width: 575px;
+    padding: 0 36px;
+  }
+
+  @mixin header-of-input-style-for-1025 {
+    margin: 0 0 15px 36px;
+  }
+
+  .container {
+    width: 740px;
+  }
+
+  header {
+    img {
+      width: 220px;
+      top: 91px;
+      right: 35px;
+    }
+  }
+
+  form {
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    .user-first-name {
+      margin: 35px 0 0 0;
+      p {
+        @include header-of-input-style-for-1025;
+      }
+
+      input {
+        @include input-style-for-1025;
+      }
+    }
+
+    .user-last-name {
+      margin: 35px 0 0 0;
+      p {
+        @include header-of-input-style-for-1025;
+      }
+      
+      input {
+        @include input-style-for-1025;
+      }
+    }
+
+    .user-email {
+      margin: 35px 0 0 0;
+      
+      p {
+        @include header-of-input-style-for-1025;
+      }
+      
+      input {
+        @include input-style-for-1025;
+      }
+    }
+    .user-password {
+      margin: 35px 0 0 0;
+      p {
+        @include header-of-input-style-for-1025;
+      }
+      
+      input {
+        @include input-style-for-1025;
+      }
+    }
+
+    .user-password-confirm {
+      margin: 35px 0 0 0;
+      p {
+        @include header-of-input-style-for-1025;
+      }
+      
+      input {
+        @include input-style-for-1025;
+      }
+    }
+
+    .user-gender {
+      margin: 35px 0 0 0;
+      p {
+        @include header-of-input-style-for-1025;
+        margin: 0 0 15px 0;
+      }
+      
+      @include input-style-for-1025;
+    }
+
+    .user-hobbies {
+      margin: 35px 0 0 0;
+      p {
+        @include header-of-input-style-for-1025;
+        margin: 0 0 15px 0;
+      }
+      
+      @include input-style-for-1025;
+    }
+
+    .user-source-of-income {
+      margin: 35px 0 0 0;
+      p {
+        @include header-of-input-style-for-1025;
+      }
+      
+      .source-of-income-select {
+        @include input-style-for-1025;
+      }
+    }
+
+    .user-income-range {
+      margin: 35px 0 0 0;
+      p {
+        @include header-of-input-style-for-1025;
+        margin: 0 0 15px 0;
+      }
+      
+      @include input-style-for-1025;
+
+      .input-range-slider-wrap {
+        width: 400px;
+      }
+
+      .income-range-value {
+        width: 69px;
+        height: 40px;
+        line-height: 40px;
+        font-size: 16px;
+      }
+    }
+
+    .user-profile-picture {
+      margin: 35px 0 0 0;
+      p {
+        @include header-of-input-style-for-1025;
+      }
+      
+      @include input-style-for-1025;
+      padding: 0;
+    }
+
+    .user-age {
+      margin: 35px 0 0 0;
+      p {
+        @include header-of-input-style-for-1025;
+      }
+      
+      input {
+        @include input-style-for-1025;
+      }
+    }
+
+    .user-bio {
+      margin: 35px 0 0 0;
+      p {
+        @include header-of-input-style-for-1025;
+      }
+      
+      width: 575px;
+    }
+
+    .submit-btn-wrap {
+      margin: 35px 0 0 0;
+      width: 575px;
+      
+      .submit-btn {
+        width: 300px;
+      }
+    }
+  }
+}
+
+@media (max-width: 769px) {
+  @mixin input-style-for-769 {
+    width: 100%;
+    padding: 0 36px;
+  }
+
+  @mixin header-of-input-style-for-769 {
+    margin: 0 0 15px 36px;
+  }
+
+  .container {
+    width: 85%;
+  }
+
+  header {
+    padding: 45px 0 0 0;
+    img {
+      width: 200px;
+      top: 103px;
+      right: 35px;
+    }
+  }
+
+  form {
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    .user-first-name {
+      margin: 35px 0 0 0;
+      width: 100%;
+      p {
+        @include header-of-input-style-for-769;
+      }
+
+      input {
+        @include input-style-for-769;
+      }
+    }
+
+    .user-last-name {
+      width: 100%;
+      margin: 35px 0 0 0;
+      p {
+        @include header-of-input-style-for-769;
+      }
+      
+      input {
+        @include input-style-for-769;
+      }
+    }
+
+    .user-email {
+      width: 100%;
+      margin: 35px 0 0 0;
+      
+      p {
+        @include header-of-input-style-for-769;
+      }
+      
+      input {
+        @include input-style-for-769;
+      }
+    }
+    .user-password {
+      width: 100%;
+      margin: 35px 0 0 0;
+      p {
+        @include header-of-input-style-for-769;
+      }
+      
+      input {
+        @include input-style-for-769;
+      }
+    }
+
+    .user-password-confirm {
+      width: 100%;
+      margin: 35px 0 0 0;
+      p {
+        @include header-of-input-style-for-769;
+      }
+      
+      input {
+        @include input-style-for-769;
+      }
+    }
+
+    .user-gender {
+      @include input-style-for-769;
+      margin: 35px 0 0 0;
+
+      p {
+        @include header-of-input-style-for-769;
+        margin: 0 0 15px 0;
+      }
+
+      &-radio-row {
+        width: 100%;
+
+        .gendel-male {
+          width: 50%;
+        }
+
+        .gender-female {
+          width: 50%;
+        }
+      }
+    }
+
+    .user-hobbies {
+      @include input-style-for-769;
+      margin: 35px 0 0 0;
+      p {
+        @include header-of-input-style-for-769;
+        margin: 0 0 15px 0;
+      }
+
+      &-wrapper {
+        flex-wrap: wrap;
+
+        .checkmark-wrap {
+          width: 50%;
+          &:nth-child(1), &:nth-child(2) {
+            margin: 0 0 16px 0;
+          }
+
+          &:nth-child(3), &:nth-child(4) {
+            margin: 16px 0 0 0;
+          }
+        }
+      }
+      
+      
+    }
+
+    .user-source-of-income {
+      width: 100%;
+      margin: 35px 0 0 0;
+      p {
+        @include header-of-input-style-for-769;
+      }
+      
+      .source-of-income-select {
+        @include input-style-for-769;
+      }
+    }
+
+    .user-income-range {
+      width: 100%;
+      margin: 35px 0 0 0;
+      p {
+        @include header-of-input-style-for-769;
+        margin: 0 0 15px 0;
+      }
+      
+      @include input-style-for-769;
+
+      .input-range-slider-wrap {
+        width: 75%;
+      }
+
+      .income-range-value {
+        width: 15%;
+        height: 40px;
+        line-height: 40px;
+        font-size: 16px;
+      }
+    }
+
+    .user-profile-picture {
+      width: 100%;
+      margin: 35px 0 0 0;
+      p {
+        @include header-of-input-style-for-769;
+      }
+      
+      @include input-style-for-769;
+      padding: 0;
+    }
+
+    .user-age {
+      width: 100%;
+      margin: 35px 0 0 0;
+      p {
+        @include header-of-input-style-for-769;
+      }
+      
+      input {
+        @include input-style-for-769;
+      }
+    }
+
+    .user-bio {
+      width: 100%;
+      margin: 35px 0 0 0;
+      p {
+        @include header-of-input-style-for-769;
+      }
+    }
+
+    .submit-btn-wrap { 
+      width: 100%;
+      margin: 35px 0 0 0;
+      
+      .submit-btn {
+        width: 300px;
+      }
+    }
+  }
+}
+
+@media (max-width: 376px) {
+  main {
+    padding: 20px 0 60px 0;
+  }
+
+  form {
+    .user-first-name {
+      margin: 0;
+    }
+
+    .user-last-name {
+      margin: 15px 0 0 0;
+    }
+
+    .user-email {
+      margin: 15px 0 0 0;
+    }
+
+    .user-password {
+      margin: 15px 0 0 0;
+    }
+
+    .user-password-confirm {
+      margin: 15px 0 0 0;
+    }
+
+    .user-gender {
+      margin: 30px 0 0 0;
+
+      p {
+        margin: 0 0 20px 0;
+      }
+    }
+
+    .user-hobbies {
+      margin: 43px 0 0 0;
+    }
+
+    .user-source-of-income {
+      margin: 45px 0 0 0;
+
+      .source-of-income-select {
+        background-color: #f8f8f8;
+      }
+    }
+
+    .user-income-range {
+      position: relative;
+      margin: 55px 0 30px 0;
+      padding: 0;
+
+      .input-range-slider-wrap {
+        width: 90%;
+      }
+
+      .income-range-value {
+        position: absolute;
+        width: 94px;
+        height: 42px;
+        right: 0;
+        top: -25px;
+      }
+    }
+
+    .user-profile-picture {
+      margin: 15px 0 0 0;
+
+      span {
+        margin: 0 0 0 10px;
+      }
+    }
+    .user-age {
+      margin: 15px 0 0 0;
+    }
+
+    .user-bio {
+      margin: 15px 0 0 0;
+    }
+
+    .submit-btn-wrap {
+      justify-content: center;
+
+      .submit-btn {
+        width: 336px;
+        height: 58px;
+        color: $base-color;
+        background-color: #f8f8f8;
+        border: 2px solid $base-color;
+      }
+    }
+  }
+}

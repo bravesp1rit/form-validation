@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Create Account</title>
+  <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+  <header>
+    <h1>Create Account</h1>
+    <img src="./img/fox.svg" alt="logo">
+  </header>
+  <main>
+    <div class="container">
+      <form action="#" id="form-id">
+        <div class="user-first-name">
+          <p>First Name*</p>
+          <input type="text" placeholder="Enter your first name">
+        </div>
+        <div class="user-last-name">
+          <p>Last Name*</p>
+          <input type="text" placeholder="Enter your last name">
+        </div>
+        <div class="user-email">
+          <p>Email*</p>
+          <input type="email" placeholder="Enter your email">
+        </div>
+        <div class="user-password">
+          <p>Password*</p>
+          <input type="password" placeholder="Enter your password">
+        </div>
+        <div class="user-password-confirm">
+          <p>Confirm Password*</p>
+          <input type="password" placeholder="Enter your password">
+        </div>
+        <div class="user-gender">
+          <p class="user-gender-header">Gender:</p>
+          <div class="user-gender-radio-row">
+            <div class="gendel-male">
+              <input type="radio" name="gender" value="male" id="male">
+              <label for="male">Male</label>
+            </div>
+            <div class="gender-female">
+              <input type="radio" name="gender" value="female" id="female">
+              <label for="female">Female</label>
+            </div>
+          </div>
+        </div>
+        <div class="user-hobbies">
+          <p>Hobbies</p>
+          <div class="user-hobbies-wrapper">
+            <div class="checkmark-wrap">
+              <input type="checkbox" name="hobbies" value="music" id="music">
+              <label for="music">Music</label>
+            </div>
+
+            <div class="checkmark-wrap">
+              <input type="checkbox" name="hobbies" value="sports" id="sports">
+              <label for="sports">Sports</label>
+            </div>
+
+            <div class="checkmark-wrap">
+              <input type="checkbox" name="hobbies" value="travel" id="travel">
+              <label for="travel">Travel</label>
+            </div>
+
+            <div class="checkmark-wrap">
+              <input type="checkbox" name="hobbies" value="movies" id="movies">
+              <label for="movies">Movies</label>
+            </div>
+          </div>
+        </div>
+        <div class="user-source-of-income">
+          <p>Source of Income</p>
+          <select class="source-of-income-select" name="income-select">
+            <option value="employed">Employed</option>
+            <option value="unemployed">Unemployed</option>
+            <option value="freelance">Freelance</option>
+            <option value="student">Student</option>
+            <option value="intern">Intern</option>
+          </select>
+        </div>
+        <div class="user-income-range">
+          <p>Income</p>
+          <div class="input-range-slider-wrap">
+            <input type="range" id="income" min="0" max="100">
+            <div class="income-range-right-side"></div>
+          </div>
+          <div class="income-range-value" id="income-value">50K</div>
+        </div>
+        <div class="user-profile-picture">
+          <p>Upload Profile Picture</p>
+          <label for="profile-avatar" class="choose-file-btn">Choose File</label>
+          <input type="file" id="profile-avatar" class="type-file-input">
+          <span>No file chosen</span>
+        </div>
+        <div class="user-age">
+          <p>Age</p>
+          <input type="text" name="user-age">
+        </div>
+        <div class="user-bio">
+          <p>Bio</p>
+          <textarea name="user-bio" id="" cols="30" rows="10" placeholder="Tell about yourself"></textarea>
+        </div>
+        <div class="submit-btn-wrap">
+          <button class="submit-btn" type="submit">Create</button>
+        </div>
+      </form>
+    </div>
+  </main>
+  <script src="./js/script.js"></script>
+</body>
+
+</html>
